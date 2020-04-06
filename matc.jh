@@ -1,0 +1,55 @@
+entity DataMaster {
+	name String
+    classification Classification
+    type DataType
+}
+
+enum DataType {
+    MATERIAL, TEST
+}
+
+entity Data {
+    revision String
+}
+
+entity Classification
+{
+	classAtt1 String
+    classAtt2 String
+	classAtt3 String
+}
+
+entity PropertySet {
+	name String
+    properties Property
+}
+
+entity Property {
+	name String
+    value String
+}
+
+relationship ManyToOne {
+	Data{master} to DataMaster
+}
+
+relationship OneToOne {
+	Data{classification} to Classification
+}
+
+relationship OneToMany {
+	Data{propertySet} to PropertySet
+}
+
+relationship OneToMany {
+	PropertySet{property} to Property
+}
+
+// Use Data Transfert Objects (DTO)
+ dto * with mapstruct
+
+// Set service options to all except few
+//service all with serviceImpl except Employee, Job
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
