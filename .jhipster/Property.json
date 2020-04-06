@@ -1,0 +1,33 @@
+{
+    "name": "Property",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "value",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "propertySet",
+            "otherEntityRelationshipName": "property",
+            "relationshipName": "propertySet",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200406084600",
+    "entityTableName": "property",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,43 @@
+{
+    "name": "Data",
+    "fields": [
+        {
+            "fieldName": "revision",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "classification",
+            "otherEntityRelationshipName": "data",
+            "relationshipName": "classification",
+            "otherEntityField": "id",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "propertySet",
+            "otherEntityRelationshipName": "data",
+            "relationshipName": "propertySet"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "dataMaster",
+            "otherEntityRelationshipName": "data",
+            "relationshipName": "master",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20200406084300",
+    "entityTableName": "data",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

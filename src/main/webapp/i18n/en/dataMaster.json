@@ -1,0 +1,23 @@
+{
+  "jhipsterSampleMongoApp": {
+    "dataMaster": {
+      "home": {
+        "title": "Data Masters",
+        "createLabel": "Create a new Data Master",
+        "createOrEditLabel": "Create or edit a Data Master",
+        "notFound": "No Data Masters found"
+      },
+      "created": "A new Data Master is created with identifier {{ param }}",
+      "updated": "A Data Master is updated with identifier {{ param }}",
+      "deleted": "A Data Master is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Data Master {{ id }}?"
+      },
+      "detail": {
+        "title": "Data Master"
+      },
+      "name": "Name",
+      "type": "Type"
+    }
+  }
+}
