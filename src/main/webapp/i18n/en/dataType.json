@@ -1,0 +1,9 @@
+{
+  "jhipsterSampleMongoApp": {
+    "DataType": {
+      "null": "",
+      "MATERIAL": "MATERIAL",
+      "TEST": "TEST"
+    }
+  }
+}

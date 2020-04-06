@@ -1,0 +1,24 @@
+{
+  "jhipsterSampleMongoApp": {
+    "classification": {
+      "home": {
+        "title": "Classifications",
+        "createLabel": "Create a new Classification",
+        "createOrEditLabel": "Create or edit a Classification",
+        "notFound": "No Classifications found"
+      },
+      "created": "A new Classification is created with identifier {{ param }}",
+      "updated": "A Classification is updated with identifier {{ param }}",
+      "deleted": "A Classification is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Classification {{ id }}?"
+      },
+      "detail": {
+        "title": "Classification"
+      },
+      "classAtt1": "Class Att 1",
+      "classAtt2": "Class Att 2",
+      "classAtt3": "Class Att 3"
+    }
+  }
+}

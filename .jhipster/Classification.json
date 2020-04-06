@@ -1,0 +1,29 @@
+{
+    "name": "Classification",
+    "fields": [
+        {
+            "fieldName": "classAtt1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "classAtt2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "classAtt3",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200406084400",
+    "entityTableName": "classification",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

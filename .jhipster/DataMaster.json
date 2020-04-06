@@ -1,0 +1,26 @@
+{
+    "name": "DataMaster",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "type",
+            "fieldType": "DataType",
+            "fieldValues": "MATERIAL,TEST"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200406084200",
+    "entityTableName": "data_master",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceClass",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}
